@@ -1,0 +1,7 @@
+name: "CodeProject.AI server HA addon"
+description: "ALPR"
+version: "1.0.0"
+slug: "codeproject_ai"
+init: false
+arch:
+  - amd64
