@@ -22,5 +22,5 @@ LABEL \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}
 
-EXPOSE 32768/tcp
-EXPOSE 32768/udp
+EXPOSE 32168/tcp
+EXPOSE 32168/udp
