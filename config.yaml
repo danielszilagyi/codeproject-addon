@@ -3,5 +3,13 @@ description: "ALPR"
 version: "1.0.0"
 slug: "codeproject_ai"
 init: false
+tmpfs: true
+usb: true
+video: true
+full_access: true
+environment:
+  TZ: Europe/Budapest
+privileged:
+  - PERFMON
 arch:
   - amd64
