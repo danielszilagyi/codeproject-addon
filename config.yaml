@@ -16,12 +16,12 @@ ports_description:
   32168/tcp: Frontend over tcp
   32168/udp: Frontend over udp
   5000/tcp: legacy port (not required for ingress)
-environment: >-
+environment: 
   TZ: Europe/Budapest
   DATA_DIR: /data/ai-data
   MODULES_PATH: /data/modules
-  Modules:ObjectDetectionNet:AutoStart: False
-  Modules:ObjectDetectionYolo:AutoStart: False
-  Modules:ALPR:AutoStart: True
+  "[Modules:ObjectDetectionNet:AutoStart]": False
+  "[Modules:ObjectDetectionYolo:AutoStart]": False
+  "[Modules:ALPR:AutoStart]": True
 arch:
   - amd64
