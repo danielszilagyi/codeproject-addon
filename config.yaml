@@ -20,5 +20,8 @@ environment:
   TZ: Europe/Budapest
   DATA_DIR: /data/ai-data
   MODULES_PATH: /data/modules
+  'Modules:ObjectDetectionNet:AutoStart': 'False'
+  'Modules:ObjectDetectionYolo:AutoStart': 'False'
+  'Modules:ALPR:AutoStart': 'True'
 arch:
   - amd64
